@@ -72,7 +72,7 @@ namespace Mine_Sweeper
         {
             Random rnd = new Random();
             //%15 Mine
-            int mineCount = (int)((Mines.GetLength(0) * Mines.GetLength(1) * 15) / 100);
+            int mineCount = (int)((Mines.GetLength(0) * Mines.GetLength(1) * 10) / 100);
             numberOfFlag = mineCount;
             while (mineCount != 0)
             {
